@@ -11,6 +11,7 @@
             $product=$this->homeModel->top6product();
             require_once 'views/home.php';
         }
+        //rtgyhujkl
         function detailpro($id){
             $productOne=$this->homeModel->findProductById($id);
             require_once 'views/detail.php';
