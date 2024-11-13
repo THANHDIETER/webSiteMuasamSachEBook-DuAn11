@@ -13,34 +13,33 @@
 
 <body>
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
-        <div class="card-border-0 shadow-lg" style="max-width: 900px; border-radius: 12px" ;>
+        <div class="card border-0 shadow-lg" style="max-width:800px; border-radius: 12px;">
             <div class="row no-gutters">
+                <div class="col-md-6">
+                    <img src="" alt="Book Image" class="img-fluid rounded-left">
+                </div>
+
+                <!-- Form đăng ký bên phải -->
                 <div class="col-md-6 p-5">
-                    <h3 class="card-title text-primary font-weight-bold">Đăng nhập</h3>
-                    <p class="text-muted">Nếu bạn chưa có tài khoản hãy đăng ký</p>
+                    <h3 class="card-title text-primary font-weight-bold">Đăng ký</h3>
+                    <p class="text-muted">Nếu bạn đã có tài khoản hãy đăng nhập</p>
                     <form action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
                         <div class="form-group">
                             <input type="email" class="form-control" placeholder="Email">
                         </div>
                         <div class="form-group">
                             <input type="password" class="form-control" placeholder="Password">
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block mb-3">Đăng nhập</button>
+                        <button type="submit" class="btn btn-primary btn-block">Đăng ký</button>
                     </form>
-                    <div class="text-center text-muted mb-3">HOẶC</div>
-                    <button type="button" class="btn btn-outline-primary btn-block mb-3">
-                        <img src="" alt="Google Logo" class="mr-2">
-                        Login with Google
-                    </button>
-                    <div class="text-center">
+                    <div class="mt-3">
                         <a href="#" class="text-primary">Quên mật khẩu</a>
                     </div>
                     <hr>
-                    <p class="text-center">Bạn chưa có tài khoản? <a href="#" class="text-primary">Đăng ký ngay</a></p>
-                </div>
-                <div class="col-md-6">
-                    <img src="" alt="Image" class="img-fluid rounded-right">
-
+                    <p>Bạn đã có tài khoản?<a href="#" class="text-primary">Đăng nhập ngay</a></p>
                 </div>
             </div>
         </div>
