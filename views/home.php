@@ -95,12 +95,7 @@
                     <li><a href="#" class="text-secondary text-decoration-none d-block py-1">Giá từ 400.000 - 500.000đ</a></li>
                     <li><a href="#" class="text-secondary text-decoration-none d-block py-1">Giá từ 500.000 - 1.000.000đ</a></li>
                     <li><a href="#" class="text-secondary text-decoration-none d-block py-1">Giá lớn hơn 1.000.000đ</a></li>
-                </ul>
-                
-               
-               
-
-               
+                </ul>       
             </aside>
 
             <!-- Banner and Book List -->
