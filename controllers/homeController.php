@@ -12,9 +12,21 @@
             require_once 'views/home.php';
         }
         //rtgyhujkl
-        function detailpro($id){
+        function detail($id){
             $productOne=$this->homeModel->findProductById($id);
             require_once 'views/detail.php';
+        }
+        function product(){
+            
+        }
+        function cart(){
+           
+        }
+        function login(){
+           
+        }
+        function logout(){
+            
         }
         
     }
