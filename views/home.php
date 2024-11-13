@@ -52,13 +52,12 @@
         <div class="row">
             <!-- Sidebar for categories -->
             <aside class="col-md-3">
+     
                 <h1 class="h5 border-bottom pb-2">Danh mục</h1>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-secondary text-decoration-none d-block py-1">Truyện tranh</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none d-block py-1">Flashcard, Thẻ Học Online</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none d-block py-1">Artbook & Sách tranh</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none d-block py-1">Văn học</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none d-block py-1">Kinh tế</a></li>
+                <?php foreach ($product as $value) { ?>
+                    <li><a href="#" class="text-secondary text-decoration-none d-block py-1"><?php echo"$value->img" ?></a></li>
+                    <?php } ?>
                     <!-- Thêm danh mục khác nếu cần -->
                 </ul>
                 <h1 class="h5 border-bottom pb-2">Tác giả tiêu biểu</h1>
