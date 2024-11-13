@@ -16,7 +16,8 @@
         <div class="card border-0 shadow-lg" style="max-width:800px; border-radius: 12px;">
             <div class="row no-gutters">
                 <div class="col-md-6">
-                    <img src="" alt="Book Image" class="img-fluid rounded-left">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.4bNj_Oj5pBnC79uMhe9DywHaLa&pid=Api&P=0&h=180"
+                        alt="Book Image" class="img-fluid h-100 rounded-left">
                 </div>
 
                 <!-- Form đăng ký bên phải -->
