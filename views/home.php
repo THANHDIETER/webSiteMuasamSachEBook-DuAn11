@@ -9,12 +9,7 @@
     <link rel="stylesheet" href="../styte/style.js">
     <link rel="stylesheet" href="../../webSiteMuasamSachEBook/styte/css/styte.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
-    <style>
-        /* Thay đổi màu sắc của nút Previous và Next */
-
-
-
-    </style>
+ 
 </head>
 <body>
 

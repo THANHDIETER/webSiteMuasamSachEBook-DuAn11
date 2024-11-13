@@ -6,6 +6,11 @@
     $act=$_GET['act']??'/';
     match($act){
         '/'=>(new homeController())->home(),
-        'detailpro' =>(new homeController())->detailpro($_GET['id'])
+        'detail' =>(new homeController())->detail($_GET['id']),
+        'home' =>(new homeController())->home(),
+        'cart' =>(new homeController())->cart(),
+        'login' =>(new homeController())->login(),
+        'logout' =>(new homeController())->logout(),
+        'product' =>(new homeController())->product(),
     }
 ?>
