@@ -17,7 +17,7 @@
             <div class="row no-gutters d-flex align-items-stretch">
                 <!-- Phần đăng nhập bên trái -->
                 <div class="col-md-6 p-5">
-                    <h3 class="card-title text-primary font-weight-bold">Đăng nhập</h3>
+                    <h3 class="card-title text-primary font-weight-bold text-center">Đăng nhập</h3>
                     <p class="text-muted">Nếu bạn chưa có tài khoản hãy đăng ký</p>
                     <form action="">
                         <div class="form-group">
@@ -43,7 +43,7 @@
 
                 <!-- Phần hình ảnh bên phải -->
                 <div class="col-md-6 h-100">
-                    <img src="https://tse1.mm.bing.net/th?id=OIP.4bNj_Oj5pBnC79uMhe9DywHaLa&pid=Api&P=0&h=180"
+                    <img src="https://images.unsplash.com/photo-1616606103915-dea7be788566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
                         alt="Book Image" class="img-fluid h-100 w-100 rounded-right">
                 </div>
             </div>
