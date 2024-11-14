@@ -16,13 +16,13 @@
         <div class="card border-0 shadow-lg" style="max-width:800px; border-radius: 12px;">
             <div class="row no-gutters">
                 <div class="col-md-6">
-                    <img src="https://tse1.mm.bing.net/th?id=OIP.4bNj_Oj5pBnC79uMhe9DywHaLa&pid=Api&P=0&h=180"
+                    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJvb2t8ZW58MHx8MHx8fDA%3D"
                         alt="Book Image" class="img-fluid h-100 rounded-left">
                 </div>
 
                 <!-- Form đăng ký bên phải -->
                 <div class="col-md-6 p-5">
-                    <h3 class="card-title text-primary font-weight-bold">Đăng ký</h3>
+                    <h3 class="card-title text-primary font-weight-bold text-center">Đăng ký</h3>
                     <p class="text-muted">Nếu bạn đã có tài khoản hãy đăng nhập</p>
                     <form action="">
                         <div class="form-group">
