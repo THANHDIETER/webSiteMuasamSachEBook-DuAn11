@@ -40,7 +40,7 @@
     <div class="row">
         <div class="col-9">
         <div class="table ">
-        <div class="table1 bg-white">
+        <div class="table table-striped bg-white">
         <h2>THÔNG TIN CHI TIẾT</h2><hr>
         <p>Nhà xuất bản: NXB Thế Giới</p><hr>
         <p>Ngày xuất bản: 16/11/2024</p><hr>
@@ -139,5 +139,7 @@
         </ul>
         <h2>Chưa có đánh giá</h2>
     </div>
+    
+    <?php require_once '../components/footer.php' ?>
 </body>
 </html>
