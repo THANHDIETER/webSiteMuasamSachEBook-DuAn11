@@ -16,7 +16,7 @@
     }
 
     function findProductById($id) {
-        $sql = "SELECT * FROM product WHERE pro_id =$id";
+        $sql = "SELECT * FROM product WHERE pro_id =1";
         return $this->conn->query($sql)->fetch();
     }
     }

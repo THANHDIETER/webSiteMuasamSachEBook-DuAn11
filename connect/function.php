@@ -1,7 +1,7 @@
 <?php
     function connectDB(){
         $host = 'localhost';
-        $dbname = 'web2014_su24';
+        $dbname = 'book_store';
         $username = 'root';
         $password = '';
         
@@ -14,4 +14,5 @@
             exit;
         }
     }
+    
 ?>
