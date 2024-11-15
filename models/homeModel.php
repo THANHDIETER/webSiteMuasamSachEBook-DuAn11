@@ -32,21 +32,14 @@
         
     }
 
-    // function top6Product() {
-    //     $sql = "SELECT * FROM product ORDER BY pro_id DESC LIMIT 6";
-    //     return $this->conn->query($sql)->fetchAll(PDO::FETCH_ASSOC);
-    // }
+    function top6Product() {
+        $sql = "SELECT * FROM product ORDER BY pro_id DESC LIMIT 6";
+        return $this->conn->query($sql)->fetchAll(PDO::FETCH_ASSOC);
+    }
 
-<<<<<<< HEAD
     function findProductById($id) {
-        $sql = "SELECT * FROM product WHERE pro_id =1";
+        $sql = "SELECT * FROM product WHERE pro_id =$id";
         return $this->conn->query($sql)->fetch();
     }
-=======
-    // function findProductById($id) {
-    //     $sql = "SELECT * FROM product WHERE pro_id =$id";
-    //     return $this->conn->query($sql)->fetch();
-    // }
->>>>>>> 0f719999ebec507160ea4cd83a29348745539aef
     }
 ?>

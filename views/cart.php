@@ -19,9 +19,19 @@
                <div  class="col-9 bg-white">
                     <br><h4> Giỏ hàng</h4><hr>
                     <div class="row">
-                         <div class="col-8">a</div>
-                         <div class="col-2">b</div>
-                         <div class="col-2">c</div>git
+                         <div class="col-2">
+                              <img src="../styte/img/logo.png" style="width: 100px; height:200px;" alt="">
+                         </div>
+                         <div class="col-6">
+                              <a href="#">. Nguyên Tắc Lập Quốc - Những Tư Tưởng Căn Bản Của Các Nhà Lập Quốc Hoa Kỳ</a>
+                              <p>Tac Gia : <a href="#">Thomas E. Ricks</a></p>
+                              <p>Loại : Sách</p>
+                              <p><a href="#" class="btn btn-danger">xoa</a></p>
+                         </div>
+                         <div class="col-2">193,500đ</div>
+                         <div class="col-2">
+                              
+                         </div>
                     </div>
                </div>
                <div  class="col-2 bg-white text-center">

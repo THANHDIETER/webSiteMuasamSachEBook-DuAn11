@@ -8,14 +8,14 @@
             $this->homeModel=new homeModel();
         }
         function home(){
-            $product = $this->homeModel->allProduct();
-           include "views/home.php";
+            $product=$this->homeModel->top6product();
+            require_once 'views/home.php';
         }
-        //rtgyhujkl
-        // function detail($id){
-        //     $productOne=$this->homeModel->findProductById($id);
-        //     require_once 'views/detail.php';
-        // }
+        
+        function detail($id){
+            $productOne=$this->homeModel->findProductById($id);
+            require_once 'views/detail.php';
+        }
         function product(){
             
         }
