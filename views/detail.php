@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chi tiết sản phẩm</title>
     <link rel="stylesheet" href="styte/css/styte.css">
-    
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </head>
 <body >
     <?php require_once '../components/header.php' ?><hr>
@@ -40,7 +45,7 @@
     <div class="row">
         <div class="col-9">
         <div class="table ">
-        <div class="table1 bg-white">
+        <div class="table table-striped bg-white">
         <h2>THÔNG TIN CHI TIẾT</h2><hr>
         <p>Nhà xuất bản: NXB Thế Giới</p><hr>
         <p>Ngày xuất bản: 16/11/2024</p><hr>
@@ -139,5 +144,7 @@
         </ul>
         <h2>Chưa có đánh giá</h2>
     </div>
+    
+    <?php require_once '../components/footer.php' ?>
 </body>
 </html>
