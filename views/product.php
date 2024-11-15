@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <?php require_once '../components/header.php' ?>
+     <?php require_once './components/header.php' ?>
     <hr>
     <div class="container mt-5">
         <!-- Breadcrumb -->
@@ -69,44 +75,32 @@
 
                 <div class="row">
                     <!-- Product Item -->
-                    <div class="col-md-4 mb-4">
+                     <?php foreach($products as $key): ?>
+                    <div class="col-md-3 mb-3">
                         <div class="card">
-                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Về Đi Con - Bìa Cứng">
-                            <div class="card-body">
-                                <h6 class="card-title">Về Đi Con - Bìa Cứng</h6>
-                                <p class="text-success">Mộc Trầm</p>
+                       
+                            <img style=" height:280px;  padding: 20px; "  src="./assets/images/prod/books/<?php echo $key['img'] ?>" class="card-img-top" alt="Về Đi Con - Bìa Cứng">
+                            <div class="card-body"> 
+                                <h6 class="card-title"><?php echo $key['ten'] ?></h6>
+                                <p class="text-success"><?php echo $key['tac_gia'] ?></p>
                                 <div class="d-flex justify-content-between">
-                                    <p class="text-danger font-weight-bold">187,000₫</p>
-                                    <p class="text-muted"><del>220,000₫</del> <span
-                                            class="badge badge-danger">-15%</span></p>
+                                    <p class="text-danger font-weight-bold"><?php echo $key['gia'] ?></p>
+                                    <p class="text-muted"><del><?php echo $price=$key['gia']-($key['gia']/100)*$key['sale'] ?></del> <span
+                                            class="badge badge-danger">-<?php echo $key['sale'] ?>%</span></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Copy product item template to add more items -->
-                    <!-- Repeat this block for more products -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Yêu, Cần Phải Học">
-                            <div class="card-body">
-                                <h6 class="card-title">Yêu, Cần Phải Học</h6>
-                                <p class="text-success">Trần Hải Hiền</p>
-                                <div class="d-flex justify-content-between">
-                                    <p class="text-danger font-weight-bold">106,000₫</p>
-                                    <p class="text-muted"><del>125,000₫</del> <span
-                                            class="badge badge-danger">-15%</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Thêm các sản phẩm khác tương tự ở đây -->
+                    <?php
+                        endforeach;
+                    ?>
+                    
 
                 </div>
             </div>
         </div>
     </div>
+    <?php require_once './components/footer.php' ?>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>

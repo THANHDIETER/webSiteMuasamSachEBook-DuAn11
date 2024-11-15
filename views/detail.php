@@ -13,7 +13,7 @@
 
 </head>
 <body >
-    <?php require_once '../components/header.php' ?><hr>
+    <?php require_once './components/header.php' ?><hr>
     <div class="bg-light">
     <div style="display: grid; gap:40px;"  class="container  ">
     <br><p class="wrapper">Trang chủ / sách hay / nguyên tắc lập quốc - những tư tưởng căn bản của các nhà lập quốc hoa kỳ</p>

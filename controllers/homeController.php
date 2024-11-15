@@ -17,7 +17,8 @@
             require_once 'views/detail.php';
         }
         function product(){
-            
+            $products=$this->homeModel->allProduct();
+            require_once 'views/product.php';
         }
         function cart(){
            
