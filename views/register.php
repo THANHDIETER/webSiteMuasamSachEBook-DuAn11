@@ -13,43 +13,38 @@
 
 <body>
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
-        <div class="card border-0 shadow-lg" style="max-width: 900px; border-radius: 12px;">
-            <div class="row no-gutters d-flex align-items-stretch">
-                <!-- Phần đăng nhập bên trái -->
+        <div class="card border-0 shadow-lg" style="max-width:800px; border-radius: 12px;">
+            <div class="row no-gutters">
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJvb2t8ZW58MHx8MHx8fDA%3D"
+                        alt="Book Image" class="img-fluid h-100 rounded-left">
+                </div>
+
+                <!-- Form đăng ký bên phải -->
                 <div class="col-md-6 p-5">
-                    <h3 class="card-title text-primary font-weight-bold text-center">Đăng nhập</h3>
-                    <p class="text-muted">Nếu bạn chưa có tài khoản hãy đăng ký</p>
+                    <h3 class="card-title text-primary font-weight-bold text-center">Đăng ký</h3>
+                    <p class="text-muted">Nếu bạn đã có tài khoản hãy đăng nhập</p>
                     <form action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
                         <div class="form-group">
                             <input type="email" class="form-control" placeholder="Email">
                         </div>
                         <div class="form-group">
                             <input type="password" class="form-control" placeholder="Password">
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block mb-3">Đăng nhập</button>
+                        <button type="submit" class="btn btn-primary btn-block">Đăng ký</button>
                     </form>
-                    <div class="text-center text-muted mb-3">HOẶC</div>
-                    <button type="button" class="btn btn-outline-primary btn-block mb-3">
-                        <img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="Google Logo"
-                            class="mr-2">
-                        Login with Google
-                    </button>
-                    <div class="text-center">
+                    <div class="mt-3">
                         <a href="#" class="text-primary">Quên mật khẩu</a>
                     </div>
                     <hr>
-                    <p class="text-center">Bạn chưa có tài khoản? <a href="#" class="text-primary">Đăng ký ngay</a></p>
-                </div>
-
-                <!-- Phần hình ảnh bên phải -->
-                <div class="col-md-6 h-100">
-                    <img src="https://images.unsplash.com/photo-1616606103915-dea7be788566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                        alt="Book Image" class="img-fluid h-100 w-100 rounded-right">
+                    <p>Bạn đã có tài khoản?<a href="#" class="text-primary">Đăng nhập ngay</a></p>
                 </div>
             </div>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

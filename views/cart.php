@@ -18,7 +18,11 @@
           <div style="display:flex;gap: 30px;" class="row">
                <div  class="col-9 bg-white">
                     <br><h4> Giỏ hàng</h4><hr>
-
+                    <div class="row">
+                         <div class="col-8">a</div>
+                         <div class="col-2">b</div>
+                         <div class="col-2">c</div>git
+                    </div>
                </div>
                <div  class="col-2 bg-white text-center">
                     <?php ?> :<p>Sản Phẩm</p>
